@@ -87,6 +87,7 @@
     
     /* How it works */
     .steps-box:first-child { text-align: center; }
+    .app-screen { width: 40%; }
     
     .works-step div {
         height: 40px;
@@ -96,10 +97,10 @@
         font-size: 120%;
     }
     
-    .works-step { margin-bottom: 20px; }
+    .works-step { margin-bottom: 25px; }
     .works-step:last-of-type { margin-bottom: 20px; }
     
-    .app-screen { width: 40%; }
+    
     
     
     
@@ -111,5 +112,5 @@
     
     .contact-form {width: 100%;}
     
-    
+    .submit-btn { text-align: center; }
 }
