@@ -627,3 +627,27 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
+
+/* ------------------------------------------------------------- */
+/* ANIMATIONS */
+/* ------------------------------------------------------------- */
+
+.js--features-an-wp,
+.js--cities-an-wp,
+.js--how-an-wp {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--plan-an-wp {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--features-an-wp.animated,
+.js--cities-an-wp.animated,
+.js--how-an-wp.animated {
+    opacity: 1;
+}

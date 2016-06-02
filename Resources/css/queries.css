@@ -110,7 +110,10 @@
 @media only screen and (max-width: 480px) {
     .section { padding: 25px 0; }
     
+    .btn-top { margin-bottom: 6px; }
+    
     .contact-form {width: 100%;}
     
     .submit-btn { text-align: center; }
+    
 }

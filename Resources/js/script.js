@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
     
     /* Sticky Navigation */
-    $('.js--section-features').waypoint(function(direction) {
+    $('.js--section-features').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky-nav');
         } else {
@@ -23,7 +23,7 @@ $(document).ready(function() {
     
     
     /* Navigation scroll buttons */
-    $(function() {
+    $(function () {
         $('a[href*="#"]:not([href="#"])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);
@@ -38,4 +38,28 @@ $(document).ready(function() {
         });
     });
     
+    /* Animations on scroll */
+    $('.js--features-an-wp').waypoint(function (direction) {
+       $('.js--features-an-wp').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js--how-an-wp').waypoint(function (direction) {
+       $('.js--how-an-wp').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js--cities-an-wp').waypoint(function (direction) {
+       $('.js--cities-an-wp').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js--plan-an-wp').waypoint(function (direction) {
+       $('.js--plan-an-wp').addClass('animated pulse');
+    }, {
+        offset: '50%'
+    });
 });
