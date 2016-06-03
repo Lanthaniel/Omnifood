@@ -230,6 +230,7 @@ header {
     margin: 5px 0;
 }
 
+
 /* MAIN NAV */
 .main-nav {
     float: right;
@@ -258,6 +259,21 @@ header {
 .main-nav li a:active{
     border-bottom: 2px solid #cf6d17;
 }
+
+/* MOBILE NAV */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 /* STICKY NAV */
 
